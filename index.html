@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel dengan Gambar dan Data</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Tabel Gambar dan Data</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th rowspan="2">No</th>
+            <th colspan="2">Detail Produk</th>
+            <th rowspan="2">Harga</th>
+        </tr>
+        <tr>
+            <th>Gambar</th>
+            <th>Nama Produk</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td><img src="img1.png" alt="Pensil" width="100"></td>
+            <td>Pensil</td>
+            <td>Rp 2.000</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><img src="img2.png" alt="Buku" width="100"></td>
+            <td>Buku</td>
+            <td>Rp 10.000</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><img src="img3.png" alt="Penggaris" width="100"></td>
+            <td>Penggaris</td>
+            <td>Rp 5.000</td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- Tabel Produk Unggulan -->
+<h2>Produk Unggulan</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="4">Produk Unggulan</th> <!-- Merged vertically -->
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="3"><img src="unggulan.png" alt="Smartphone" width="100"></td>
+            <td>Nama</td>
+            <td>Smartphone</td>
+        </tr>
+            <td>Harga</td>
+            <td>Rp. 29.999.000</td>
+        <tr>
+            <td>Fitur</td>
+            <td>
+                    <li>Bodi: Kaca Depan (Corning-made glass), Kaca Belakang (Corning-made glass), Frame Titanium.</li>
+                    <li>Layar: 6.9 inch Super Retina XDR OLED Ceramic Shield glass.</li>
+                    <li>Chipset: Apple A18 Pro (3 nm).</li>
+                    <li>Memori internal: 128GB, 256GB, 512GB.</li>
+                    <li>Kamera Depan: 12 MP.</li>
+            </td>            
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
